@@ -1,7 +1,6 @@
-const contenedor_loader = document.querySelector('.contenedor_loader');
+const containerLoading = document.getElementById('container-loading');
 
 window.addEventListener('load',function(){
-    contenedor_loader.style= "opacity: 0;";
+    containerLoading.classList.add('active');
 });
 
-// setTimeout(function(){ alert("Hello"); }, 3000);
